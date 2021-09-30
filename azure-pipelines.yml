@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: mydockeragent
+  vmImage: dockeragent
 
 steps:
 - script: echo Hello, world!
